@@ -23,6 +23,7 @@ setup(
     author_email="robin@robinwinslow.co.uk",
     description="A simple framework for building complex web applications.",
     long_description=readme,
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     include_package_data=True,
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
